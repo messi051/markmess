@@ -1,18 +1,66 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Mess</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #EEEEEE;
+        }
+        
+        .site-header {
+            text-align: left;
+            padding: 10px 20px;
+            margin: -20px -20px 20px -20px;
+        }
+        
+        .site-header a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .site-header a:hover {
+            text-decoration: underline;
+        }
+        
+        main a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        main a:hover {
+            background-color: white;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>I'm Mark, Welcome to My Website</h1>
-    </header>
+    <div class="site-header">
+        <a href="https://markmess.net">markmess.net</a>
+    </div>
+    
     <main>
-        <p>This is my first website hosted on Cloudflare Pages! Testing an update...I need to update the design</p>
-     <p><a href="/about">about</a></p>
+        <p><a href="/about">about</a></p>
+        <p><a href="/professional">professional</a></p>
+        <p><a href="/smart-home">smart home</a></p>
+        <p><a href="/other-projects">other projects</a></p>
+        <p><a href="/golf">golf</a></p>
+        <p><a href="/investment-advice">investment advice</a></p>
     </main>
 </body>
 </html>
