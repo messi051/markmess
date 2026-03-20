@@ -1,0 +1,62 @@
+/* markmess.net — sage green theme */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+    line-height: 1.6;
+    background-color: #e8ede4;
+    color: #2c3b28;
+}
+
+/* ── Simple header ── */
+.site-header {
+    background-color: #e8ede4;
+    border-bottom: 1px solid #b2c9aa;
+    padding: 16px 0;
+    margin: 0 -20px 36px -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.site-header a {
+    color: #4a7040;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.site-header a:hover {
+    text-decoration: underline;
+}
+
+/* ── Main content ── */
+main a {
+    color: #2c3b28;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: #cddfc7;
+    border-radius: 2px;
+}
+
+main p {
+    margin: 10px 0;
+}
+
+/* ── Inner page headers ── */
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #3a5934;
+    font-weight: 500;
+}
